@@ -16,6 +16,7 @@ Note: I am yet to create the firmware.
 **3D Case Files:**
 - `kiki-player-B_Cu.glb` / `kiki-player-B_Mask.glb` / `kiki-player-F_CuGlr` etc. - These are the individual layer exports from KiCad.
 - `updated-pcb.step` - The 3D model of the PCB itself that I imported into Fusion 360 to design the case around it
+- `kiki-player-case.stl` - The 3D model of the PCB case.
 
 **Misc Files:**
 - `.gorjob` files - Job queue files from Fusion 360 (not super important)
