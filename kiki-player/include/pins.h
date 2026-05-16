@@ -31,3 +31,6 @@
 #define MGC3130_TS 2
 
 #define LED_CHG 1
+
+#define BATTERY_ADC_PIN 18
+#define BATTERY_CHG_PIN 39
