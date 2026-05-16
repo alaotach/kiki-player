@@ -1,5 +1,6 @@
 #include <Arduino.h>
-
+#include <pins.h>
+#include <config.h>
 // put function declarations here:
 int myFunction(int, int);
 
