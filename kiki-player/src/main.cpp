@@ -1,6 +1,22 @@
 #include <Arduino.h>
 #include <pins.h>
 #include <config.h>
+#include <appState.h>
+
+AppState appState= {
+  Screen::HOME,
+  RepeatModes::OFF,
+  InputState::NONE,
+  PlaybackState::STOPPED,
+  BatteryStatus::FULL,
+  VolumeLevel::MEDIUM,
+  MenuItem::PLAYER,
+  true, // isSDCardInserted
+  false, // isPlaying
+  false, // isMuted
+  false, // isBluetoothConnected
+  50 // volume
+};
 // put function declarations here:
 int myFunction(int, int);
 
