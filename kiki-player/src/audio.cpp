@@ -9,6 +9,7 @@ class AudioOutputI2S {
 public:
     AudioOutputI2S();
     void SetPinout(int bclk, int lrclk, int dout);
+    void setGain(float gain);
 };
 
 AudioOutputI2S::AudioOutputI2S() {}
@@ -17,6 +18,30 @@ void AudioOutputI2S::SetPinout(int bclk, int lrclk, int dout) {
     (void)bclk;
     (void)lrclk;
     (void)dout;
+}
+
+void AudioOutputI2S::setGain(float gain) {
+    (void)gain;
+}
+
+void audioSetVol(uint8_t vol) {
+    if (vol > 100) {
+        vol = 100;
+    }
+    float gain = (float)vol / 100.0f;
+    if (out) {
+        out->setGain(gain);
+    }
+}
+
+uint32_t audioGetPos() {
+    if (!file || !file->getSize()) return 0;
+    return (file->getPos() / 16000) * 1000;
+}
+
+uint32_t audioGetDuration() {
+    if (!file || !file->getSize()) return 0;
+    return (file->getSize() / 16000) * 1000;
 }
 
 AudioOutputI2S *out;
@@ -72,5 +97,29 @@ void audioTick() {
                 audioStop();
             }
         }
+    }
+}
+
+extern const char* getNextTrack(); //later
+extern const char* getCurrentTrack(); //later
+extern const char* getPreviousTrack(); //later
+
+void audioNext() {
+    const char* nextTrack = getNextTrack();
+    if (nextTrack) {
+        audioPlay(nextTrack);
+    }
+    else {
+        audioStop();
+    }
+}
+
+void audioPrevious() {
+    const char* prevTrack = getPreviousTrack();
+    if (prevTrack) {
+        audioPlay(prevTrack);
+    }
+    else {
+        audioStop();
     }
 }

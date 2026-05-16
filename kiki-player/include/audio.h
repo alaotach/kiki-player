@@ -8,3 +8,8 @@ void audioStop();
 void audioPause();
 void audioResume();
 void audioTick();
+void audioNext();
+void audioPrevious();
+void audioSetVolume(int volume);
+uint32_t audioGetPos();
+uint32_t audioGetDuration();
