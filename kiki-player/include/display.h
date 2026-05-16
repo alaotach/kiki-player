@@ -5,3 +5,5 @@ extern TFT_eSPI tft;
 void initDisplay();
 void backlightOn();
 void backlightDim();
+void displaySplash();
+void displayError(const char* message);

@@ -2,6 +2,7 @@
 #include <pins.h>
 #include <config.h>
 #include <appState.h>
+#include <audio.h>
 
 AppState appState= {
   Screen::HOME,
@@ -22,11 +23,13 @@ int myFunction(int, int);
 
 void setup() {
   // put your setup code here, to run once:
+  audioSetup();
   int result = myFunction(2, 3);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+  audioTick();
 }
 
 // put function definitions here:
