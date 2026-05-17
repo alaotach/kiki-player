@@ -34,3 +34,6 @@
 
 #define BATTERY_ADC_PIN 18
 #define BATTERY_CHG_PIN 39
+
+#define SW3_PIN 15
+#define SW4_PIN 16
