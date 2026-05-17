@@ -20,11 +20,17 @@ So basically this whole thing was built for a program by hackclub named fallout 
 **3D Case Files:**
 - `kiki-player-B_Cu.glb` / `kiki-player-B_Mask.glb` / `kiki-player-F_CuGlr` etc. - These are the individual layer exports from KiCad.
 - `updated-pcb.step` - The 3D model of the PCB itself that I imported into Fusion 360 to design the case around it
+- <img width="521" height="702" alt="Screenshot 2026-05-17 161832" src="https://github.com/user-attachments/assets/7c7b27b4-e8d0-4516-8f25-94fe95661591" />
+
 - `kiki-player-case.stl` - The 3D model of the PCB case.
+- <img width="598" height="567" alt="Screenshot 2026-05-16 003037" src="https://github.com/user-attachments/assets/2c20c009-df23-4b98-826d-314c9d727994" />
+
 
 **Misc Files:**
 - `.gorjob` files - Job queue files from Fusion 360 (not super important)
 - `.csv` files - Component positioning data and BOM exports
+- <img width="1866" height="683" alt="image" src="https://github.com/user-attachments/assets/028fd6ef-e570-4b26-9efc-1b88df0043e3" />
+
 
 ## The Files You Actually Need
 
