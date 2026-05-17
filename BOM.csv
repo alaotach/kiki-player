@@ -1,0 +1,26 @@
+Comment,Designator,Footprint,Qty ,Unit Price,Total Price,URL
+100nF,"C21, C9, C18, C19, C17, C16",Capacitor_SMD:C_603_1608Metric,6.0,0.01,0.06,https://projectpoint.in/index.php?route=product/product&product_id=636107122
+10uF,"C20, C22, C14, C15, C13, C12",Capacitor_SMD:C_603_1608Metric,6.0,0.026,0.156,https://projectpoint.in/index.php?route=product%2Fproduct&product_id=501120042917&path=0_500847329065_891256607_1451314698_502700971727
+5.1k Ohm,"R5, R4",Resistor_SMD:R_0603_1608Metric,2.0,0.01,0.02,https://projectpoint.in/index.php?route=product%2Fproduct&product_id=500002336088&path=0_500847329065_494689694_501199016986_500938303558
+10k Ohm,"R13, R6, R3, R14",Resistor_SMD:R_0603_1608Metric,4.0,0.01,0.04,https://projectpoint.in/index.php?route=product%2Fproduct&product_id=501026110855&path=0_500847329065_494689694_501199016986_500938303558
+100k Ohm,"R14, R15",Resistor_SMD:R_0603_1608Metric,2.0,0.01,0.02,https://projectpoint.in/index.php?route=product%2Fproduct&product_id=498359371755&path=0_500847329065_494689694_501199016986_500938303558
+PCM5102A,U5,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,1.0,1.84,1.84,https://robu.in/product/weact-studio-i2s-speaker-module-pcm5100a/?gad_source=1&gad_campaignid=17416544847&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3LfLMT9SCCPyMx1UMHlrAVZCAe3wTT5_rslGIyfrEgzz2ARsdBP9EIaAlw9EALw_wcB
+DS3231M,U7,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,1.0,1.76,1.76,https://www.electropi.in/ds3231-rtc-module-india?gad_source=1&gad_campaignid=23329895947&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3Lag3QSKyQ8wC7S3H3TddhfZnvE6iEL9TXwY5_2q7O-9d03DR9DwbYaAqsMEALw_wcB
+SW_PUSH,"SW3, SW4",Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm,2.0,0.038,0.076,https://www.electropi.in/push-button-switch-2-pin-5mm?gad_source=1&gad_campaignid=23329895947&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3LLbDzwL19MAW3jqkx0AH-2-OM5d--_daQGv3k3FQn-8rZe0MgGZKEaAuLgEALw_wcB
+Speaker,LS1,Connector_PinHeader_2.54mm:PinHeader_1x02_p2.54mm_Vertical,1.0,1.58,1.58,https://robu.in/product/smartelex-digital-speaker-module/
+MGC3130-I/MQ,J2,Package_QFP:TQFP-32_7x7mm_P0.8mm,1.0,,1.0,
+MAX98357A,U6,Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm,1.0,4.68,4.68,https://www.amazon.in/Oceanlabz-MAX98357A-Amplifier-Microphone-Raspberry/dp/B0GT4N822M/ref=asc_df_B0GT4N822M?mcid=584aab94cf2a3b19b3e245cc246ae693&tag=googleshopdes-21&linkCode=df0&hvadid=709857096849&hvpos=&hvnetw=g&hvrand=6434147541182097270&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061677&hvtargid=pla-2479930223916&psc=1&hvocijid=6434147541182097270-B0GT4N822M-&hvexpln=0&gad_source=1
+SD_CARD_DEVICE,J4,Connector_Card:microSD_HC_Hirose_DM3D-SF,1.0,2.51,2.51,https://in.element14.com/hirose-hrs/dm3at-sf-pejm5-40/connector-micro-sd-push-push-smt/dp/1764374
+AudioPlug3,J3,Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal,1.0,0.13,0.13,https://robu.in/product/audio-jack-pj311-3-5mm-female-connector-black/?gad_source=1&gad_campaignid=17427802703&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3JFNQK85NXV1GlamHmSdQixChEJlTITgLlDEM2xrnPsMCJorKF3GyYaAiOgEALw_wcB
+Conn_02x01,J5,Connector_PinHeader_2.54mm:PinHeader_1x02_p2.54mm_Horizontal,1.0,,1.0,
+AMS1117-3.3,U8,Package_TO_SOT_SMD:SOT-223-3_TabPin2,1.0,0.073,0.073,https://robu.in/product/ams1117-3-3v-1a-sot-223-voltage-regulator-ic-pack-of-5-ics/?gad_source=1&gad_campaignid=17427802703&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3J5IiN0A7pdy7Hnh6JowvSyV7axVEesU-HcruTaGgoueYhTMZ8GnvwaAn0tEALw_wcB
+TP4056-42-ESOP8,U9,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias,1.0,0.33,0.33,https://robu.in/product/tp4056-1a-li-ion-battery-charging-board-micro-usb-with-current-protection-type-c-connector/?gad_source=1&gad_campaignid=21296336107&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3LyVhPtrEwdLJ3Aq9jyvqr_BV1jFfELa2gCjI1Zp5iAZg8XFljXkSgaAt04EALw_wcB
+LED,"D3, D4",LED_SMD:LED_0603_1608Metric,2.0,0.01,0.02,
+CR2013-MI2120,U4,Display:CR2013-MI2120,1.0,2.6,2.6,https://www.electropi.in/1.8-inch-tft-lcd-module-128x160-with-4-io
+ESP32-S3-WROOM-1,U1,RF_Module:ESP32-s3-WROOM-1,1.0,3.86,3.86,https://www.electropi.in/espressif-esp32-s3-wroom-1-n4r8-modules?gad_source=1&gad_campaignid=23329895947&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3IwicdAxzhBrBelyTJ9toAWkm7FiyqzfIm-B8Hs_X8EX3LSaFXvCpkaArrBEALw_wcB
+Crystal,Y1,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,1.0,0.22,0.22,https://robu.in/product/ysx321sl-24mhz-12pf-10ppm-4pins-smd-smt-metal-surface-quartz-crystal-pack-of-2/?gad_source=1&gad_campaignid=17427802703&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3JYAF2ZjMGwD-7ejp1mV-APMJYfDS0PZ7kFl9P49L-BbcqgsNGbO-0aAqKtEALw_wcB
+1.2k Ohm,"R11, R12",Resistor_SMD:R_0603_1608Metric,2.0,0.01,0.02,
+Voltage Devider,RN2,Resistor_SMD:R_Array_Convex_2x0603,1.0,0.01,0.01,
+12pF,"C7, C8",Capacitor_SMD:C_603_1608Metric,2.0,0.01,0.02,
+1000 mAh battery,,,1.0,4.2,4.2,https://robu.in/product/wly394058-1000mah-3-7v-single-cell-rechargeable-lipo-battery/?gad_source=1&gad_campaignid=17427802559&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3L5Ibl4Tq6YNLHZI8-MC1UaSP3qFMZWy0f03Tv39QN0yKWc45ywXcIaAqJVEALw_wcB
+,,,,,26.224999999999998,
