@@ -2,6 +2,7 @@
 
 #define SCREEN_W 320
 #define SCREEN_H 240
+#define TOP_BAR_H 20
 #define AUDIO_CHANNELS 2
 #define AUDIO_SAMPLE_RATE 44100
 #define AUDIO_BUFFER_SIZE 512
@@ -19,6 +20,7 @@
 #define YELLOW 0xFFE0
 #define CYAN 0x07FF
 #define MAGENTA 0xF81F
+#define Gray 0xFFA9
 
 #define BG_COLOR 0x18E3
 #define TEXT_COLOR WHITE

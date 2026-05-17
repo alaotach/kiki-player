@@ -57,7 +57,7 @@ void audioSetup() {
     mp3 = new AudioGeneratorMP3();
 }
 
-bool audioPlay(const char* filePath) {
+void audioPlay(const char* filePath) {
     if (mp3 && mp3->isRunning()) {
         mp3->stop();
     }
