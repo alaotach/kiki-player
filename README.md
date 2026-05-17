@@ -14,6 +14,9 @@ So basically this whole thing was built for a program by hackclub named fallout 
 - `kiki-player.kicad_pcb` - The actual PCB layout with all components placed and routed.
 - `Sample-BOM_JLCSMT.xlsx` - Bill of Materials with all the parts.
 
+**Firmware:**
+- `kiki-player/` - It has all the firmware source code written in arduino with platformIo.
+
 **3D Case Files:**
 - `kiki-player-B_Cu.glb` / `kiki-player-B_Mask.glb` / `kiki-player-F_CuGlr` etc. - These are the individual layer exports from KiCad.
 - `updated-pcb.step` - The 3D model of the PCB itself that I imported into Fusion 360 to design the case around it
