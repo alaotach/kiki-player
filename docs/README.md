@@ -67,12 +67,12 @@ JLCPCB assembly only handles SMD components. You'll need to solder through-hole 
 - **J3** - 3.5mm audio jack
 ---
 
-### Step 6 - Connect the Battery
+### Step 5 - Connect the Battery
 
 Get a 1000mAh flat LiPo with a 2-pin JST PH2.0 connector.
 ---
 
-### Step 7 - Connect the Display
+### Step 6 - Connect the Display
 
 The ILI9341 display module connects via a ribbon cable or header pins depending on which variant you got. Match the pin labels:
 
@@ -89,14 +89,14 @@ The ILI9341 display module connects via a ribbon cable or header pins depending 
 
 ---
 
-### Step 8 - Flash the Firmware
+### Step 7 - Flash the Firmware
 
 See the Firmware Flashing section below.
 
 ---
 
 
-### Step 9 - 3D Print and Assemble the Case
+### Step 8 - 3D Print and Assemble the Case
 - **Material:** PLA works fine, PETG if you want it tougher
 
 When everything fits, seat the PCB, connect the display ribbon, tuck the battery into the remaining space, and close the case with M2 screws through the corner holes.
