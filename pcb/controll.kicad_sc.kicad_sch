@@ -802,34 +802,10 @@
 		)
 	)
 	(junction
-		(at 151.13 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fdbd605-a26e-4fa9-96c3-b2247226f85b")
-	)
-	(junction
 		(at 124.46 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66edcd83-9ee2-4e86-951a-9feae0a132c0")
-	)
-	(no_connect
-		(at 116.84 105.41)
-		(uuid "00eb9a81-5dd1-4fcf-b57d-12b661d3efb4")
-	)
-	(no_connect
-		(at 152.4 93.98)
-		(uuid "5e34da12-9ace-4ae5-9410-05e9ab8296ba")
-	)
-	(wire
-		(pts
-			(xy 151.13 93.98) (xy 152.4 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "160089bc-a049-4a30-b266-0e5140b2d3fa")
+		(uuid "f2f9e2dc-f083-4454-97bd-524a12dbfc77")
 	)
 	(wire
 		(pts
@@ -843,13 +819,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 93.98) (xy 151.13 93.98)
+			(xy 124.46 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dc9721a-ac7d-4e60-84ef-43018b541b22")
+		(uuid "770bcc7a-dbf2-4d67-a1fa-afcc33ad985a")
 	)
 	(wire
 		(pts
@@ -860,6 +836,28 @@
 			(type default)
 		)
 		(uuid "e59d1664-cf7b-4071-9821-f05bfa348be0")
+	)
+	(hierarchical_label "SW4"
+		(shape input)
+		(at 137.16 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07f8d4d7-f4c9-4749-aaa2-b4f6d3c25e4b")
+	)
+	(hierarchical_label "ADC"
+		(shape input)
+		(at 116.84 105.41 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aabdcabf-a7cf-4f13-9fc7-7dd06c09c02e")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1106,7 +1104,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 151.13 88.9 90)
+		(at 132.08 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1114,10 +1112,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81dbc08a-3e65-4694-a40a-60fc14a8c8aa")
 		(property "Reference" "SW4"
-			(at 152.4 87.6299 90)
+			(at 133.3501 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1128,7 +1125,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 152.4 90.1699 90)
+			(at 135.636 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1139,7 +1136,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm"
-			(at 146.05 88.9 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1150,7 +1147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 88.9 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1161,7 +1158,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 151.13 88.9 0)
+			(at 132.08 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1181,85 +1178,6 @@
 			(project "kiki-player"
 				(path "/a20a05c5-243f-410a-9881-de77a274e6b8/572b974a-9196-4f58-b937-aee5588a958e"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afae4472-6cb9-4584-bd65-b3be14d70427")
-		(property "Reference" "#PWR023"
-			(at 157.48 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b063193-114a-42db-b84b-f87c9ee3a01f")
-		)
-		(instances
-			(project "kiki-player"
-				(path "/a20a05c5-243f-410a-9881-de77a274e6b8/572b974a-9196-4f58-b937-aee5588a958e"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
