@@ -1,9 +1,9 @@
 Comment,Designator,Footprint,Qty ,Unit Price,Total Price,URL
-100nF,"C21, C9, C18, C19, C17, C16",Capacitor_SMD:C_603_1608Metric,6.0,0.01,0.06,https://projectpoint.in/index.php?route=product/product&product_id=636107122
-10uF,"C20, C22, C14, C15, C13, C12",Capacitor_SMD:C_603_1608Metric,6.0,0.026,0.156,https://projectpoint.in/index.php?route=product%2Fproduct&product_id=501120042917&path=0_500847329065_891256607_1451314698_502700971727
-5.1k Ohm,"R5, R4",Resistor_SMD:R_0603_1608Metric,2.0,0.01,0.02,https://projectpoint.in/index.php?route=product%2Fproduct&product_id=500002336088&path=0_500847329065_494689694_501199016986_500938303558
-10k Ohm,"R13, R6, R3, R14",Resistor_SMD:R_0603_1608Metric,4.0,0.01,0.04,https://projectpoint.in/index.php?route=product%2Fproduct&product_id=501026110855&path=0_500847329065_494689694_501199016986_500938303558
-100k Ohm,"R14, R15",Resistor_SMD:R_0603_1608Metric,2.0,0.01,0.02,https://projectpoint.in/index.php?route=product%2Fproduct&product_id=498359371755&path=0_500847329065_494689694_501199016986_500938303558
+100nF,"C21, C9, C18, C19, C17, C16",Capacitor_SMD:C_603_1608Metric,6.0,0.16,0.16,https://quartzcomponents.com/products/100nf-0-1uf-104-50v-1206-smd-capacitor-pack-of-10-pieces?variant=43526822232298&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqeBJX50aguYafYwVG7mmBBUbLhjM3zn7Q-uQrK0TAJHfy5hfTn6Ks
+10uF,"C20, C22, C14, C15, C13, C12",Capacitor_SMD:C_603_1608Metric,6.0,0.16,0.32,https://quartzcomponents.com/products/10uf-10000nf-50v-0805-x7r-smd-capacitor-pack-of-5-pieces
+5.1k Ohm,"R5, R4",Resistor_SMD:R_0603_1608Metric,2.0,0.084,0.084,https://quartzcomponents.com/products/5-1k-ohm-1-4-watt-resistor-with-1-tolerance-pack-of-10
+10k Ohm,"R13, R6, R3, R14",Resistor_SMD:R_0603_1608Metric,4.0,0.15,0.15,https://quartzcomponents.com/products/10k-ohm-2-watt-resistor
+100k Ohm,"R14, R15",Resistor_SMD:R_0603_1608Metric,2.0,0.08,0.08,https://quartzcomponents.com/products/100k-ohm-0603-package-1-10w-smd-resistor-5-tolerance-pack-of-20-pieces
 PCM5102A,U5,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,1.0,1.84,1.84,https://robu.in/product/weact-studio-i2s-speaker-module-pcm5100a/?gad_source=1&gad_campaignid=17416544847&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3LfLMT9SCCPyMx1UMHlrAVZCAe3wTT5_rslGIyfrEgzz2ARsdBP9EIaAlw9EALw_wcB
 DS3231M,U7,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,1.0,1.76,1.76,https://www.electropi.in/ds3231-rtc-module-india?gad_source=1&gad_campaignid=23329895947&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3Lag3QSKyQ8wC7S3H3TddhfZnvE6iEL9TXwY5_2q7O-9d03DR9DwbYaAqsMEALw_wcB
 SW_PUSH,"SW3, SW4",Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm,2.0,0.038,0.076,https://www.electropi.in/push-button-switch-2-pin-5mm?gad_source=1&gad_campaignid=23329895947&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3LLbDzwL19MAW3jqkx0AH-2-OM5d--_daQGv3k3FQn-8rZe0MgGZKEaAuLgEALw_wcB
