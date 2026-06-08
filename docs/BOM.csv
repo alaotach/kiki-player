@@ -1,4 +1,4 @@
-Comment,Designator,Footprint,Qty ,Unit Price,Total Price,URL
+Comment,Designator,Footprint,Qty,Unit Price,Total Price,URL
 100nF,"C21, C9, C18, C19, C17, C16",Capacitor_SMD:C_603_1608Metric,6.0,0.16,0.16,https://quartzcomponents.com/products/100nf-0-1uf-104-50v-1206-smd-capacitor-pack-of-10-pieces?variant=43526822232298&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqeBJX50aguYafYwVG7mmBBUbLhjM3zn7Q-uQrK0TAJHfy5hfTn6Ks
 10uF,"C20, C22, C14, C15, C13, C12",Capacitor_SMD:C_603_1608Metric,6.0,0.16,0.32,https://quartzcomponents.com/products/10uf-10000nf-50v-0805-x7r-smd-capacitor-pack-of-5-pieces
 5.1k Ohm,"R5, R4",Resistor_SMD:R_0603_1608Metric,2.0,0.084,0.084,https://quartzcomponents.com/products/5-1k-ohm-1-4-watt-resistor-with-1-tolerance-pack-of-10
@@ -22,3 +22,4 @@ Crystal,Y1,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,1.0,0.22,0.22,https://robu.in
 Voltage Devider,RN2,Resistor_SMD:R_Array_Convex_2x0603,1.0,0.01,0.01,
 12pF,"C7, C8",Capacitor_SMD:C_603_1608Metric,2.0,0.01,0.02,
 1000 mAh battery,,,1.0,4.2,4.2,https://robu.in/product/wly394058-1000mah-3-7v-single-cell-rechargeable-lipo-battery/?gad_source=1&gad_campaignid=17427802559&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3L5Ibl4Tq6YNLHZI8-MC1UaSP3qFMZWy0f03Tv39QN0yKWc45ywXcIaAqJVEALw_wcB
+TOTAL,,,,,24.231,
