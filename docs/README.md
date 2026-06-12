@@ -14,10 +14,12 @@ So basically this whole thing was built for a program by hackclub named fallout 
 
 **3D Case Files:**
 - `kiki-player-B_Cu.glb` / `kiki-player-B_Mask.glb` / `kiki-player-F_CuGlr` etc. - These are the individual layer exports from KiCad.
-- `updated-pcb.step` - The 3D model of the PCB itself that I imported into Fusion 360 to design the case around it
+- `pcb.step` - The 3D model of the PCB itself that I imported into Fusion 360 to design the case around it
 - <img width="521" height="702" alt="Screenshot 2026-05-17 161832" src="https://github.com/user-attachments/assets/7c7b27b4-e8d0-4516-8f25-94fe95661591" />
-- `kiki-player-case.stl` - The 3D model of the PCB case.
-- <img width="598" height="567" alt="Screenshot 2026-05-16 003037" src="https://github.com/user-attachments/assets/2c20c009-df23-4b98-826d-314c9d727994" />
+- `kiki-player-case.step` - The 3D model of the PCB case.
+<img width="530" height="530" alt="5a1365c1-bdc9-4841-9451-511a8fc57f7d-Photoroom" src="https://github.com/user-attachments/assets/6876ac3d-33b6-48b8-891b-e10f008345f1" />
+<img width="1020" height="412" alt="18b236ff-2246-4a2c-be6b-1bc1fa3a94f7-Photoroom" src="https://github.com/user-attachments/assets/9b3e8413-a732-45a8-a846-fcdcf4dda4ef" />
+
 
 **Misc Files:**
 - `.gorjob` files - Job queue files from Fusion 360 (not super important)
