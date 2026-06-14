@@ -1,7 +1,7 @@
 # Kiki-Player
 ## Project Overview
 So basically this whole thing was built for a program by hackclub named fallout and I got an idea to build an mp3 player to replace spotify like good old times from a random youtube video titled "how to quit spotify" and I actually managed to pull it off. It's a fully custom PCB including a 3D case that plays music, has a touch sensitive click wheel.
-<img width="1054" height="1492" alt="Zine" src="https://github.com/user-attachments/assets/028d1e94-8a3c-4a1d-b026-52afb4e49a52" />
+<img width="1054" height="1492" alt="Zine" src="https://github.com/user-attachments/assets/08ef38b7-8bbc-40c4-b3ee-3b6c2e2ea3e7" />
 
 ## What's Inside This Folder
 **PCB Files:**
