@@ -47,7 +47,7 @@ open `kiki-player.kicad_pcb` in KiCad, then go to **File → Fabrication Outputs
 
 Go to jlcpcb and upload your gerber zip.
 
-Then enable PCBA and upload `Sample-BOM_JLCSMT.xlsx` as the BOM and `kiki-player-all-pos.csv` as the component placement file.
+- Then enable PCBA and upload `Sample-BOM_JLCSMT.xlsx` as the BOM and `kiki-player-all-pos.csv` as the component placement file.
 ---
 
 ### Step 3 - Prepare the SD Card
@@ -70,7 +70,7 @@ Get a 1000mAh flat LiPo with a 2-pin JST PH2.0 connector.
 
 ### Step 6 - Connect the Display
 
-The ILI9341 display module connects via a ribbon cable.
+- The ILI9341 display module connects via a ribbon cable.
 ---
 
 ### Step 7 - Flash the Firmware
