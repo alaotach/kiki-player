@@ -22,20 +22,17 @@ So basically this whole thing was built for a program by hackclub named fallout 
 
 
 **Misc Files:**
-- `.gorjob` files - Job queue files from Fusion 360 (not super important)
 - `.csv` files - Component positioning data and BOM exports
 - <img width="1866" height="683" alt="image" src="https://github.com/user-attachments/assets/028fd6ef-e570-4b26-9efc-1b88df0043e3" />
 
 ## The Files You Actually Need
 **To Manufacture the PCB:**
-1. `kiki-player.kicad_pcb` - Send this to JLCPCB (export as gerbers first)
+1. `kiki-player.kicad_pcb` - Send this to JLCPCB
 2. `Sample-BOM_JLCSMT.xlsx` - Upload this with your PCB order for parts + assembly
 3. `kiki-player.kicad_sch` - Reference schematic if anything goes wrong
 
 **For Reference:**
 - `kiki-player.kicad_pro` - Open this in KiCad if you want to modify anything
-- Schematic files - Check these if you want to understand how everything's wired
-
 ---
 
 ## Build Guide
@@ -48,24 +45,21 @@ open `kiki-player.kicad_pcb` in KiCad, then go to **File → Fabrication Outputs
 
 ### Step 2 - Order the PCB from JLCPCB
 
-Go to [jlcpcb.com](https://jlcpcb.com) and upload your gerber zip.
+Go to jlcpcb and upload your gerber zip.
 
-Then enable **PCB Assembly** (PCBA), upload `Sample-BOM_JLCSMT.xlsx` as the BOM and `kiki-player-all-pos.csv` as the component placement file. JLCPCB will match your parts to their library and solder the SMD components for you. Confirm the parts in their viewer and place the order.
-
+Then enable PCBA and upload `Sample-BOM_JLCSMT.xlsx` as the BOM and `kiki-player-all-pos.csv` as the component placement file.
 ---
 
 ### Step 3 - Prepare the SD Card
 
-Format a MicroSD card as FAT32 and dump your MP3 files into it.
+Format a MicroSD card as FAT32 and dump MP3 files into it.
 
 ---
 
-### Step 4 - Solder the Through-Hole Parts
+### Step 4 - Solder the TH Parts
 
-JLCPCB assembly only handles SMD components. You'll need to solder through-hole parts yourself:
-
-- **J5** - 2-pin battery connector (PinHeader 2.54mm) - connects to LiPo
-- **LS1** - 2-pin speaker connector (PinHeader 2.54mm) - connects to speaker
+- **J5** - 2-pin JST PH2.0 MALE Connector - connects to battery lipo
+- **LS1** - 2-pin JST PH2.0 MALE Connector - connects to speaker
 - **J3** - 3.5mm audio jack
 ---
 
@@ -76,75 +70,32 @@ Get a 1000mAh flat LiPo with a 2-pin JST PH2.0 connector.
 
 ### Step 6 - Connect the Display
 
-The ILI9341 display module connects via a ribbon cable or header pins depending on which variant you got. Match the pin labels:
-
-| Display Pin | PCB Pin |
-|---|---|
-| VCC | 3V3 |
-| GND | GND |
-| CS | GPIO10 |
-| RESET | GPIO14 |
-| DC | GPIO13 |
-| MOSI | GPIO11 |
-| SCK | GPIO12 |
-| LED | GPIO9 |
-
+The ILI9341 display module connects via a ribbon cable.
 ---
 
 ### Step 7 - Flash the Firmware
 
-See the Firmware Flashing section below.
-
----
-
+```bash
+cd firmware/kiki-player
+pio run --target upload
+```
+( You need VSCode and PlatformIO for it )
 
 ### Step 8 - 3D Print and Assemble the Case
-- **Material:** PLA works fine, PETG if you want it tougher
+- **Material:** PLA works fine.
 
-When everything fits, seat the PCB, connect the display ribbon, tuck the battery into the remaining space, and close the case with M2 screws through the corner holes.
-
----
-
-## Firmware Flashing
-
-### Prerequisites
-
-VSCode and PlatformIO
-
-### First Flash
-
-1. Open VSCode, go to the PlatformIO home screen, click **Open Project**, and select the `kiki-player/` folder from this repo.
-
-2. PlatformIO will automatically download the ESP32-S3 toolchain and all libraries listed in `platformio.ini` the first time. This takes a few minutes, let it finish.
-
-3. Connect the ESP32-S3-WROOM-1 board via USB-C to your computer. The board should show up as a COM port (Windows) or `/dev/ttyACM0` or similar (Linux/Mac).
-
-4. If the board doesn't show up, you might need to put it in download mode manually: hold the **BOOT button** (SW4 on your PCB), tap **RESET** (SW3), then release BOOT. The board should now show up as a port.
-
-5. In VSCode, click the **→ Upload** button at the bottom of the screen.
-
-6. PlatformIO will compile and flash. 
-
-7. After flashing, hit the RESET button on your PCB. The display should light up with the splash screen.
+When everything fits, seat the PCB, connect the display ribbon, tuck the battery into the remaining space, and close the case.
 
 ---
 
-### Modifying the Firmware
+## Modifying the Firmware
 
-All the important settings are in `include/config.h` - timeouts, colors, volume defaults, sleep timer. Change those without touching any other file. Pin definitions are all in `include/pins.h` if you've rewired anything.
+All config parameters live in:
 
-Each feature is in its own file so it's easy to find things - `src/audio.cpp` for playback, `src/ui.cpp` for screens, `src/input.cpp` for the click wheel and buttons.
+```
+firmware/kiki-player/include/Config.h
+```
+
+Features are split into modules under `firmware/kiki-player/src/`.
 
 ---
-
-## Controls
-
-| Input | Action |
-|---|---|
-| Wheel clockwise | Scroll down / Volume up (in player) |
-| Wheel counter-clockwise | Scroll up / Volume down (in player) |
-| Center touch | Select / Play-Pause |
-| Menu button (SW3) | Back |
-| Select button (SW4) | Confirm |
-| Long press Menu | Deep sleep |
-| Long press Select | Next track (in player) |
